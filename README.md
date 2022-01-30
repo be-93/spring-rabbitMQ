@@ -6,6 +6,7 @@
 > MQ를 사용하여 처리를 다른 처리자에게 위임한다.     
 > RabbitMQ는 이러한 작업을 처리할 수 있는 AMQP(Advenced Message Queing Protocol, MQ 표준 프로토콜)를    
 > 따르는 여러 오픈소스 메시지 브로커 제품중 하나다.
+> 이처럼 처리의 주요 책임을 메세지를 통해 적절하게 나눔으로써 클래스간의 의존도 결합을 낮출 수 있다.      
 
 ## :two: 주요 요소
 
@@ -24,5 +25,5 @@
 
 - Exchange
 
-> Exchange는 producer에서 전달받은 message를 queue에게 전달해준다.   
-> exchange는 메시지를 어떤 queue에 추가할지? 또, 얼마나 추가할지? 아니면 그냥 버려야할지 이는 exchange 규칙에 의해 결정된다
+> Exchange 는 Producer 에서 전달받은 Message 를 Queue 에게 전달해준다.   
+> Exchange 는 메시지를 어떤 Queue 에 전달할지 혹은 제거해아 하는지 에 대해 Exchange 규칙에 의해 결정된다
