@@ -15,12 +15,12 @@
 
 - Producer
 
-> Producer는 message를 consumer에게 위임하기 위해 message를 exchange에 publish 하는 자이다.   
-> message를 보내는 일 이외에는 아무일도 하지 않는다.
+> Producer 는 Message 를 Consumer 에게 위임하기 위해 Message 를 Exchange 에 Publish 하는 자이다.   
+> Message 를 보내는 일 이외에는 아무일도 하지 않는다.
 
 - Consumer
 
-> Consumer는 message를 producer로 부터 위임 받아 처리하는 자이다.
+> Consumer 는 Message 를 Producer 로 부터 위임 받아 처리하는 자이다.
 
 - Exchange
 
