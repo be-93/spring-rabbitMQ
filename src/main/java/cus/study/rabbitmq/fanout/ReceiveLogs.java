@@ -1,4 +1,4 @@
-package cus.study.rabbitmq.log;
+package cus.study.rabbitmq.fanout;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
